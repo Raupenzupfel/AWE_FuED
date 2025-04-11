@@ -1,0 +1,31 @@
+Aufgabe:
+
+Fragestellung: Wie kann eine Drohne ohne Navigationsmittel einem Pfad folgen?
+
+Aufgaben:
+	Drohne erkennt Kegel
+	Drohne fliegt im Slalom um die Kegel 
+	Optimierung der Flugroute auf Minimierung der Zeit zum Durchflug 
+	
+
+
+Brainstorm:
+	Form der Erkennung/Kartierung der Kegel
+		Ideen:
+			YOLO
+				Bilderkennung auf Rechner
+				Physikalische Größe der Kegel als Distanz messung
+			ARUCO
+				Physikalische größe als Distanz Tracker
+				
+	Steuerung der Drohne
+		lernen!!!
+			Ansteuerungsart?
+			Welche Daten kommen zurück?
+				Dokumentation?
+		Wie Steuern wir die Drohne an
+		Simple Routen
+		
+	Routenplanung
+		Idee:
+			Sinus in Y Richtung??
